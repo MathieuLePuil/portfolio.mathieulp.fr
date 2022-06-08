@@ -5,11 +5,21 @@ require("debut.inc.php");
 require("header.inc.php")
 ?>
 
-<main>
-    <section id="presentation">
-        <h1 class="titre-page">En travaux</h1>
-    </section>
-</main>
+<section id="home">
+
+</section>
+
+<section id="about">
+
+</section>
+
+<section id="portfolio">
+
+</section>
+
+<section id="contact">
+
+</section>
 
 
 
