@@ -1,19 +1,18 @@
 <header>
-    <div class="logotxt logo">
-        <img src="assets/LOGO.jpg" alt="LOGO" id="logohg" width="50" height="50">
-    </div>
     <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fa-solid fa-bars"></i>
-        </label>
-        <a href="index.php">
-            <label class="logo">MathieuLP</label></a>
-        <ul>
-            <li><a href="#home" class="anav">Accueil</a></li>
-            <li><a href="#about" class="anav">À propos</a></li>
-            <li><a href="#portfolio" class="anav">Portfolio</a></li>
-            <li><a href="#contact" class="anav">Contact</a></li>
+        <div class="logotxt logo">
+            <img src="assets/LOGO.jpg" alt="LOGO" id="logohg" width="50" height="50">
+        </div>
+        <div class="toggle">
+            <i class="fas fa-bars ouvrir"></i>
+            <i class="fas fa-times fermer"></i>
+        </div>
+        <ul class="menu">
+            <li><a href="">Accueil</a></li>
+            <li><a href="">À propos</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
+            <li></li>
         </ul>
     </nav>
 </header>
