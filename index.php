@@ -21,7 +21,7 @@ require("header.inc.php")
 
 </section>
 
-
+<script src="script/app.js"></script>
 
 <?php
 require("footer.inc.php");
