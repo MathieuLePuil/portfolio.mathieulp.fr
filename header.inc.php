@@ -1,7 +1,7 @@
 <header>
     <nav>
         <div class="logo">
-            <img src="assets/LOGO.png" alt="LOGO" id="logohg" width="40" height="40">
+            <img src="assets/LOGO.png" alt="LOGO" id="logohg" width="27" height="27">
             <h1 class="logotxt no-background-txt">PORT</h1>
             <h1 class="logotxt background-txt">FOLIO</h1>
         </div>
@@ -14,7 +14,6 @@
             <li><a href="">À propos</a></li>
             <li><a href="">Portfolio</a></li>
             <li><a href="">Contact</a></li>
-            <li></li>
         </ul>
     </nav>
 </header>
