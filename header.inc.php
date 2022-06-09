@@ -1,7 +1,7 @@
 <header>
     <nav>
         <div class="logotxt logo">
-            <img src="assets/LOGO.jpg" alt="LOGO" id="logohg" width="50" height="50">
+            <img src="assets/LOGO.png" alt="LOGO" id="logohg" width="40" height="40">
         </div>
         <div class="toggle">
             <i class="fas fa-bars ouvrir"></i>
