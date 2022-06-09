@@ -1,7 +1,9 @@
 <header>
     <nav>
-        <div class="logotxt logo">
+        <div class="logo">
             <img src="assets/LOGO.png" alt="LOGO" id="logohg" width="40" height="40">
+            <h1 class="logotxt no-background-txt">PORT</h1>
+            <h1 class="logotxt background-txt">FOLIO</h1>
         </div>
         <div class="toggle">
             <i class="fas fa-bars ouvrir"></i>
