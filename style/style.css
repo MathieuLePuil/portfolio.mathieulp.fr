@@ -74,7 +74,7 @@ nav {
     }
 
     .fermer {
-        display: none;
+        display: none !important;
     }
 
     .open .ouvrir {
@@ -82,7 +82,7 @@ nav {
     }
 
     .open .fermer {
-        display: block;
+        display: block !important;
     }
 
     .menu {
