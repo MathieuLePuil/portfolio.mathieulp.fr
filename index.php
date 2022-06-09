@@ -6,7 +6,9 @@ require("header.inc.php")
 ?>
 
 <section id="home">
+    <div>
 
+    </div>
 </section>
 
 <section id="about">

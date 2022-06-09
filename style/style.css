@@ -40,8 +40,11 @@ nav {
     font-size: 18px;
 }
 
-.no-background-txt {
+.logotxt {
     padding-left: 10px;
+}
+
+.no-background-txt {
     -webkit-text-stroke: 1px white;
     color: black;
 }
