@@ -6,8 +6,14 @@ require("header.inc.php")
 ?>
 
 <section id="home">
-    <div>
-
+    <div class="home">
+        <div class="name">
+            <h1 class="no-background-txt">MATHIEU</h1>
+            <h1 class="background-txt">LE PUIL</h1>
+        </div>
+        <div class="img-fullstack-dev">
+            <img src="assets/full-stack-developer.png">
+        </div>
     </div>
 </section>
 

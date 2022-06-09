@@ -24,6 +24,7 @@ header {
     background: #000;
     color: #fff;
     padding: 0 2%;
+    z-index: 1000;
 }
 
 nav {
@@ -44,9 +45,18 @@ nav {
     padding-left: 10px;
 }
 
-.no-background-txt {
+.no-background-txt-black {
     -webkit-text-stroke: 1px white;
     color: black;
+}
+
+.no-background-txt {
+    -webkit-text-stroke: 1px white;
+    color: #282828;
+}
+
+.background-txt {
+    color: white;
 }
 
 .toggle {
@@ -129,15 +139,38 @@ nav {
 /* Section HOME */
 
 #home {
-    height: 550px;
+    display: flex;
+    height: 600px;
     width: 100%;
     background-color: #282828;
+}
+
+.home {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-fullstack-dev {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+
+.img-fullstack-dev img {
+    width: 400px;
+}
+
+.name {
+    font-size: 40px;
+    margin-top: 100px;
 }
 
 /* Section ABOUT */
 
 #about {
-    height: 550px;
+    height: 600px;
     width: 100%;
     background-color: #CBCBCB;
 }
@@ -145,7 +178,7 @@ nav {
 /* Section PORTFOLIO */
 
 #portfolio {
-    height: 550px;
+    height: 600px;
     width: 100%;
     background-color: #282828;
 }
@@ -153,7 +186,7 @@ nav {
 /* Section CONTACT */
 
 #contact {
-    height: 550px;
+    height: 600px;
     width: 100%;
     background-color: #CBCBCB;
 }
