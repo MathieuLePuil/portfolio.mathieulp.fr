@@ -140,7 +140,7 @@ nav {
 
 #home {
     display: flex;
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background-color: #282828;
 }
@@ -170,7 +170,7 @@ nav {
 /* Section ABOUT */
 
 #about {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background-color: #CBCBCB;
 }
@@ -178,7 +178,7 @@ nav {
 /* Section PORTFOLIO */
 
 #portfolio {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background-color: #282828;
 }
@@ -186,7 +186,7 @@ nav {
 /* Section CONTACT */
 
 #contact {
-    height: 600px;
+    height: 100vh;
     width: 100%;
     background-color: #CBCBCB;
 }
