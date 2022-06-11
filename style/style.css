@@ -41,6 +41,10 @@ nav {
     font-size: 18px;
 }
 
+.logo h1 {
+    font-size: 35px;
+}
+
 .logotxt {
     padding-left: 10px;
 }
