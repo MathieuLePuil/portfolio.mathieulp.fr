@@ -173,6 +173,14 @@ nav {
     margin-top: 220px;
 }
 
+#typingmoins {
+    display: none;
+}
+
+#typingplus {
+    display: block;
+}
+
 @media screen and (max-width: 1446px) {
     .img-fullstack-dev img {
         width: 400px;
@@ -183,7 +191,47 @@ nav {
 @media screen and (max-width: 1000px) {
     .img-fullstack-dev img {
         width: 400px;
-        margin-top: 200px;
+        margin-top: 170px;
+    }
+    .name {
+        font-size: 50px;
+        margin-top: 270px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .img-fullstack-dev img {
+        width: 400px;
+        margin-top: 30px;
+    }
+    .name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 50px;
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .img-fullstack-dev img {
+        width: 300px;
+        margin-top: 30px;
+    }
+    .name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 40px;
+        margin-top: 60px;
+        width: 100%;
+    }
+    #typingmoins {
+        display: block;
+        justify-content: center;
+    }
+    #typingplus {
+        display: none;
     }
 }
 
