@@ -257,6 +257,16 @@ nav {
     background-color: #CBCBCB;
 }
 
+.about-left {
+    width: 50%;
+    float: left;
+}
+
+.about-right {
+    width: 50%;
+    float: right;
+}
+
 /* Section PORTFOLIO */
 
 #portfolio {

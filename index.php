@@ -20,7 +20,12 @@ require("header.inc.php")
 </section>
 
 <section id="about">
-
+    <div class="about-left">
+        <p>GAUCHE</p>
+    </div>
+    <div class="about-right">
+        <p>DROITE</p>
+    </div>
 </section>
 
 <section id="portfolio">
