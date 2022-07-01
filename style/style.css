@@ -282,7 +282,7 @@ nav {
 
 .about-right p {
     text-align: justify;
-    margin-top: 265px;
+    margin-top: 28%;
     margin-right: 200px;
     font-size: 20px;
 }
@@ -298,26 +298,31 @@ nav {
     height: 100px;
 }
 
-@media screen and (max-width: 500px) {
-    #pdp {
-        width: 200px;
-        height: 200px;
-    }
-    .about-left {
-        width: 90%;
-        height: 20%;
-        float: top;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .about-right {
-        width: 100%;
-    }
+@media screen and (max-width: 1446px) {
     .about-right p {
-        text-align: justify;
-        font-size: 20px;
+        margin-right: 130px;
+        margin-top: 30%;
+    }
+    .media-link {
+        margin-right: 130px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about-right p {
+        margin-right: 90px;
+        margin-top: 30%;
+    }
+    .media-link {
+        margin-right: 90px;
+    }
+    #pdp {
+        width: 300px;
+        height: 300px;
+    }
+    .media-link img {
+        width: 70px;
+        height: 70px;
     }
 }
 
