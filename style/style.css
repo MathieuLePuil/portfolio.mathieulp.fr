@@ -207,7 +207,7 @@ nav {
 
 @media screen and (min-width: 1446px) {
     .img-fullstack-dev img {
-        margin-top: 200px;
+        margin-top: 215px;
     }
     .name {
         font-size: 90px;
@@ -311,7 +311,7 @@ nav {
 @media screen and (max-width: 1000px) {
     .about-right p {
         margin-right: 90px;
-        margin-top: 30%;
+        margin-top: 37%;
     }
     .media-link {
         margin-right: 90px;
@@ -323,6 +323,68 @@ nav {
     .media-link img {
         width: 70px;
         height: 70px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-left {
+        width: 100%;
+        height: 45%;
+    }
+    .about-right {
+        width: 100%;
+        height: 70%;
+        float: bottom;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-right p {
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .media-link {
+        width: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-around;
+    }
+    #pdp {
+        width: 200px;
+        height: 200px;
+    }
+    .media-link img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 624px) {
+    .about-left {
+        width: 100%;
+        height: 35%;
+        margin-top: 50px;
+    }
+    .about-right {
+        width: 100%;
+        height: 70%;
+        float: bottom;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-right p {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .about-right p {
+        margin-top: 0;
+        font-size: 16px;
     }
 }
 
