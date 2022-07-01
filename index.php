@@ -21,10 +21,18 @@ require("header.inc.php")
 
 <section id="about">
     <div class="about-left">
-        <img src="assets/pdp.png" id="pdp">
+        <img src="assets/pdp.png" alt="photo" id="pdp">
     </div>
     <div class="about-right">
-        <p>Je suis <b>Mathieu Le Puil</b>, j’ai 19 ans et je suis en <b>B.U.T Métiers du Multimédia et de l’internet</b>. J’ai commencé à apprendre le développement lors du premier confinement de 2020. <br> <br>  J’ai tout d’abord commencé à apprendre le <b>Python</b> afin de développer des Bots Discord. J’ai ensuite appris à utiliser des <b>bases de données</b> ou encore le <b>JSON</b>. <br> <br>  C’est en arrivant en M.M.I que j’ai appris le développement Web avec les outils <b>HTML/CSS</b>, <b>PHP</b> et <b>JavaScript</b>. J’ai par la suite créé plusieurs sites, que ce soit dans le cursus ou dans mon temps personnel. Vous pouvez les retrouver ci-dessous.</p>
+        <div class="txt-presentation">
+            <p>Je suis <b>Mathieu Le Puil</b>, j’ai 19 ans et je suis en <b>B.U.T Métiers du Multimédia et de l’internet</b>. J’ai commencé à apprendre le développement lors du premier confinement de 2020. <br> <br>  J’ai tout d’abord commencé à apprendre le <b>Python</b> afin de développer des Bots Discord. J’ai ensuite appris à utiliser des <b>bases de données</b> ou encore le <b>JSON</b>. <br> <br>  C’est en arrivant en M.M.I que j’ai appris le développement Web avec les outils <b>HTML/CSS</b>, <b>PHP</b> et <b>JavaScript</b>. J’ai par la suite créé plusieurs sites, que ce soit dans le cursus ou dans mon temps personnel. Vous pouvez les retrouver ci-dessous.</p>
+        </div>
+        <br>
+        <div class="media-link">
+            <img src="assets/CV.png" alt="CV">
+            <img src="assets/GITHUB.png" alt="Github">
+            <img src="assets/LINKEDIN.png" alt="Linkedin">
+        </div>
     </div>
 </section>
 
