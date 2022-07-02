@@ -37,7 +37,7 @@ require("header.inc.php")
     </div>
 </section>
 
-<section id="portfolio">
+<section id="portfolio1">
     <div class="pf-haut">
         <div class="scaryshopfr">
             <h2 class="pf-titre">scaryshop.fr</h2>
@@ -50,13 +50,15 @@ require("header.inc.php")
             <p class="pf-texte">Le Site du ScaryShop a été créé avant tout pour m’entrainer, mais aussi pour promouvoir mon serveur Discord. Il s’agit d’un serveur où nous vendons les objets d’un jeu contre de la monnaie virtuelle.</p>
         </div>
     </div>
-    <div class="pf-bas">
+</section>
+<section id="portfolio2">
+    <div class="pf-haut">
         <div class="mmiple">
             <h2 class="pf-titre">scaryshop.fr</h2>
             <img src="assets/scaryshop.fr.png" alt="scaryshop.fr" class="pf-img">
             <p class="pf-texte">Le Site du ScaryShop a été créé avant tout pour m’entrainer, mais aussi pour promouvoir mon serveur Discord. Il s’agit d’un serveur où nous vendons les objets d’un jeu contre de la monnaie virtuelle.</p>
         </div>
-        <div class="portfoliomathieulpfr">
+        <div class="portfoliofr">
             <h2 class="pf-titre">scaryshop.fr</h2>
             <img src="assets/scaryshop.fr.png" alt="scaryshop.fr" class="pf-img">
             <p class="pf-texte">Le Site du ScaryShop a été créé avant tout pour m’entrainer, mais aussi pour promouvoir mon serveur Discord. Il s’agit d’un serveur où nous vendons les objets d’un jeu contre de la monnaie virtuelle.</p>
