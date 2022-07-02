@@ -409,7 +409,14 @@ nav {
 /* Section PORTFOLIO */
 
 #portfolio {
-    height: 200vh;
+    height: 100vh;
+    width: 100%;
+    background-color: #282828;
+}
+
+#portfolio2 {
+    display: none;
+    height: 100vh;
     width: 100%;
     background-color: #282828;
 }
@@ -418,47 +425,36 @@ nav {
     color: white;
 }
 
-
 .pf-img {
-    margin-top: 10px;
-    width: 300px;
+    width: 500px;
     border-radius: 15px;
-    border : 2px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
+    margin-top: 10px;
 }
 
 .pf-texte {
-    margin-top: 10px;
     color: white;
-    width: 300px;
-}
-
-.pf-haut {
-    display: flex;
-    flex-wrap: wrap;
-    height: 50%;
-    float: top;
+    margin-top: 10px;
+    text-align: justify;
 }
 
 .scaryshopfr {
     width: 40%;
-    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: justify;
-    margin: 9% 5%;
+    float: left;
+    margin: 5%;
 }
 
 .mathieulpfr {
     width: 40%;
-    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: justify;
-    margin: 9% 5%;
+    float: right;
+    margin: 5%;
 }
 
 /* Section CONTACT */
