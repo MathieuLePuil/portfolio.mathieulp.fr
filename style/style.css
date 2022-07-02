@@ -272,7 +272,11 @@ nav {
 
 .about-right {
     width: 50%;
+    height: 100%;
     float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #pdp {
@@ -282,7 +286,6 @@ nav {
 
 .about-right p {
     text-align: justify;
-    margin-top: 28%;
     margin-right: 200px;
     font-size: 20px;
 }
@@ -301,7 +304,6 @@ nav {
 @media screen and (max-width: 1446px) {
     .about-right p {
         margin-right: 130px;
-        margin-top: 30%;
     }
     .media-link {
         margin-right: 130px;
@@ -311,7 +313,6 @@ nav {
 @media screen and (max-width: 1000px) {
     .about-right p {
         margin-right: 90px;
-        margin-top: 37%;
     }
     .media-link {
         margin-right: 90px;
@@ -330,11 +331,11 @@ nav {
     .about-left {
         width: 100%;
         height: 45%;
+        margin-bottom: -70px;
     }
     .about-right {
         width: 100%;
         height: 70%;
-        float: bottom;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -342,8 +343,8 @@ nav {
     .about-right p {
         margin-right: 5%;
         margin-left: 5%;
-        margin-top: 10px;
         justify-content: center;
+        font-size: 18px;
     }
     .media-link {
         width: 100%;
@@ -362,11 +363,12 @@ nav {
     }
 }
 
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 711px) {
     .about-left {
         width: 100%;
-        height: 35%;
-        margin-top: 50px;
+        height: 25%;
+        margin-top: 60px;
+        margin-bottom: 0;
     }
     .about-right {
         width: 100%;
@@ -379,12 +381,28 @@ nav {
     .about-right p {
         margin-top: 0;
     }
+    #pdp {
+        width: 150px;
+        height: 150px;
+    }
 }
 
-@media screen and (max-width: 476px) {
+@media screen and (max-width: 568px) {
+    .about-left {
+        height: 25%;
+        margin-top: 40px;
+    }
     .about-right p {
         margin-top: 0;
         font-size: 16px;
+    }
+    #pdp {
+        width: 100px;
+        height: 100px;
+    }
+    .media-link img {
+        width: 50px;
+        height: 50px;
     }
 }
 
