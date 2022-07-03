@@ -93,7 +93,7 @@ require("header.inc.php")
             </div>
             <div class="row100">
                 <div class="col">
-                    <div class="inputBox">
+                    <div class="inputBox textarea">
                         <textarea required="required"></textarea>
                         <span class="text">Votre message :</span>
                         <span class="line"></span>
