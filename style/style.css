@@ -173,7 +173,6 @@ nav {
 
 .name {
     font-size: 70px;
-    margin-top: 210px;
 }
 
 #typingmoins {
@@ -187,49 +186,60 @@ nav {
 @media screen and (max-width: 1446px) {
     .img-fullstack-dev img {
         width: 400px;
-        margin-top: 175px;
+    }
+    .img-fullstack-dev {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .name {
-        margin-top: 200px;
+        font-size: 70px;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .img-fullstack-dev img {
-        width: 400px;
-        margin-top: 180px;
-    }
     .name {
         font-size: 50px;
-        margin-top: 255px;
     }
 }
 
 @media screen and (min-width: 1446px) {
-    .img-fullstack-dev img {
-        margin-top: 170px;
+    .img-fullstack-dev {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .name {
         font-size: 90px;
-        margin-top: 16%;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+        margin-top: 40px;;
     }
 }
 
 @media screen and (max-width: 800px) {
-    .img-fullstack-dev img {
-        width: 400px;
-        margin-top: auto;
-    }
-    .name {
+    .home {
+        height: 86%;
+        margin-top: 7%;
+        margin-bottom: 7%;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
-        font-size: 50px;
-        margin-top: 80px;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 639px) {
     .img-fullstack-dev img {
         width: 300px;
         margin-top: 30px;
