@@ -419,14 +419,16 @@ nav {
 /* Section PORTFOLIO */
 
 #portfolio {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-color: #282828;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #portfolio2 {
     display: none;
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-color: #282828;
 }
@@ -453,6 +455,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     float: left;
     margin: 5%;
 }
@@ -465,6 +468,34 @@ nav {
     justify-content: center;
     float: right;
     margin: 5%;
+}
+
+.mmiple {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin: 5%;
+}
+
+.portfoliofr {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin: 5%;
+}
+
+@media screen and (max-width: 1050px) {
+    #portfolio {
+        height: 100vh;
+        width: 100%;
+        background-color: #282828;
+        display: flex;
+    }
 }
 
 /* Section CONTACT */
