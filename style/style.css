@@ -419,17 +419,17 @@ nav {
 /* Section PORTFOLIO */
 
 #portfolio {
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     background-color: #282828;
     display: flex;
 }
 
 #portfolio2 {
-    display: none;
-    height: 80vh;
+    height: 50vh;
     width: 100%;
     background-color: #282828;
+    display: flex;
 }
 
 .pf-titre {
@@ -475,6 +475,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     float: left;
     margin: 5%;
 }
@@ -501,6 +502,43 @@ nav {
     }
     .scaryshopfr {
         margin: 0;
+    }
+    #portfolio2 {
+        height: 110vh;
+        width: 100%;
+        background-color: #282828;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: -100px;
+    }
+    .mmiple {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .pf-img {
+        width: 300px;
+    }
+
+    .pf-texte {
+        width: 300px;
+    }
+    #portfolio2 {
+        height: 100vh;
+        margin-top: -150px;
+    }
+    #portfolio {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #portfolio2 {
+        height: 100vh;
+        margin-top: -180px;
     }
 }
 
