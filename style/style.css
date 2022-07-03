@@ -574,7 +574,7 @@ nav {
     position: relative;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(autofit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
 
 .container .row100 .col {
@@ -663,4 +663,15 @@ nav {
 .container .row100 .inputBox textarea:focus ~ .line,
 .container .row100 .inputBox textarea:valid ~ .line {
     height: 100%;
+}
+
+input[type=submit] {
+    border: none !important;
+    padding: 7px 35px !important;
+    cursor: pointer !important;
+    outline: none !important;
+    background: #282828 !important;
+    color: #FFF !important;
+    font-size: 18px !important;
+    border-radius: 2px !important;
 }
