@@ -41,7 +41,7 @@ require("header.inc.php")
     <div class="scaryshopfr">
         <h2 class="pf-titre">scaryshop.fr</h2>
         <img src="assets/scaryshop.fr.png" alt="scaryshop.fr" class="pf-img">
-        <p class="pf-texte">Le Site du ScaryShop a été créé avant tout pour m’entrainer, mais aussi pour promouvoir mon serveur Discord. Il s’agit d’un serveur où nous vendons les objets d’un jeu contre de la monnaie virtuelle.</p>
+        <p class="pf-texte">Le site du ScaryShop a été créé avant tout pour m’entrainer, mais aussi pour promouvoir mon serveur Discord. Il s’agit d’un serveur où nous vendons les objets d’un jeu contre de la monnaie virtuelle.</p>
     </div>
     <div class="mathieulpfr">
         <h2 class="pf-titre">mathieulp.fr</h2>
@@ -63,7 +63,52 @@ require("header.inc.php")
 </section>
 
 <section id="contact">
-
+    <div class="contactform">
+        <div class="container">
+            <h2>Me contacter</h2>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span class="text">Prénom</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span class="text">Nom</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span class="text">E-mail</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span class="text">Votre message :</span>
+                        <span class="line"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <div class="inputBox">
+                        <input type="submit" value="Envoyer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <script src="script/app.js"></script>
