@@ -419,14 +419,14 @@ nav {
 /* Section PORTFOLIO */
 
 #portfolio {
-    height: 60vh;
+    height: 73vh;
     width: 100%;
     background-color: #282828;
     display: flex;
 }
 
 #portfolio2 {
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     background-color: #282828;
     display: flex;
