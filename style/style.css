@@ -675,3 +675,10 @@ input[type=submit] {
     font-size: 18px !important;
     border-radius: 2px !important;
 }
+
+@media screen and (max-width: 440px) {
+    .container {
+        width: 100%;
+        margin-right: 20px;
+    }
+}
