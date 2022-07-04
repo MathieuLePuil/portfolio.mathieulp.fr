@@ -10,8 +10,8 @@ require("header.inc.php")
         <div class="name">
             <h1 class="no-background-txt">MATHIEU</h1>
             <h1 class="background-txt">LE PUIL</h1>
-            <a href="https://github.com/DenverCoder1/readme-typing-svg" id="typingmoins"><img src="https://readme-typing-svg.herokuapp.com?size=15&color=FFFFFF&center=true&lines=%C3%89tudiant+en+B.U.T+MMI;D%C3%A9veloppeur+Full+Stack;D%C3%A9veloppeur+Python"></a>
-            <a href="https://github.com/DenverCoder1/readme-typing-svg" id="typingplus"><img src="https://readme-typing-svg.herokuapp.com?size=30&color=FFFFFF&lines=%C3%89tudiant+en+B.U.T+MMI;D%C3%A9veloppeur+Full+Stack;D%C3%A9veloppeur+Python"></a>
+            <a href="" id="typingmoins"><img src="https://readme-typing-svg.herokuapp.com?size=15&color=FFFFFF&center=true&lines=%C3%89tudiant+en+B.U.T+MMI;D%C3%A9veloppeur+Full+Stack;D%C3%A9veloppeur+Python"></a>
+            <a href="" id="typingplus"><img src="https://readme-typing-svg.herokuapp.com?size=30&color=FFFFFF&lines=%C3%89tudiant+en+B.U.T+MMI;D%C3%A9veloppeur+Full+Stack;D%C3%A9veloppeur+Python"></a>
         </div>
         <div class="img-fullstack-dev">
             <img src="assets/full-stack-developer.png">
