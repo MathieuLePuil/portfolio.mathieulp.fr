@@ -711,3 +711,52 @@ input[type=submit] {
         margin-right: 20px;
     }
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #282828;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+footer img {
+    width: 20px;
+}
+
+.reseaux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.coordonnees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.ft-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
