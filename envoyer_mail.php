@@ -35,9 +35,9 @@
         $message = 'Le pseudo est : '.$prenom."\n".'Le # est : '.$nom."\n".'L\'email est : '.$email."\n".$_POST['message'];
         $destinataire = 'lepuilmathieu@gmail.com';
         $sujet = 'Depuis le site du portfolio | '.date('d/m/Y');
-        $headers = 'From: '.$email. "\r\n" .
-            'Reply-To: '.$email. "\r\n" .
-            'X-Mailer: PHP/' . phpversion();
+        $headers = 'From : '.$email." \r\n";
+        $headers .= 'Content-Type:text/html; charset="utf-8"'."\r\n";
+        $headers .= 'Content-Transfer-Encoding: 8bit'."\r\n";
         if (mail($destinataire, $sujet, $message, $headers)) {
             echo '<script> alert(\'Le message a été envoyé !\'); location.assign("https://portfolio.mathieulp.fr/#contact");</script>';
         } else {
