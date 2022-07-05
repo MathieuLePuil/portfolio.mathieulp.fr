@@ -63,52 +63,54 @@ require("header.inc.php")
 </section>
 
 <section id="contact">
-    <div class="contactform">
-        <div class="container">
-            <h2>Me contacter</h2>
-            <div class="row100">
-                <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="" required="required">
-                        <span class="text">Prénom</span>
-                        <span class="line"></span>
+    <form method="post" action="envoyer_mail.php">
+        <div class="contactform">
+            <div class="container">
+                <h2>Me contacter</h2>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="prenom" id="prenom" required="required">
+                            <span class="text">Prénom</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="nom" id="nom" required="required">
+                            <span class="text">Nom</span>
+                            <span class="line"></span>
+                        </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="" required="required">
-                        <span class="text">Nom</span>
-                        <span class="line"></span>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <input type="text" name="email" id="email" required="required">
+                            <span class="text">E-mail</span>
+                            <span class="line"></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row100">
-                <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="" required="required">
-                        <span class="text">E-mail</span>
-                        <span class="line"></span>
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox textarea">
+                            <textarea name="message" id="message" required="required"></textarea>
+                            <span class="text">Votre message :</span>
+                            <span class="line"></span>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row100">
-                <div class="col">
-                    <div class="inputBox textarea">
-                        <textarea required="required"></textarea>
-                        <span class="text">Votre message :</span>
-                        <span class="line"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="row100">
-                <div class="col">
-                    <div class="inputBox">
-                        <input type="submit" value="Envoyer">
+                <div class="row100">
+                    <div class="col">
+                        <div class="inputBox">
+                            <button type="submit">Envoyer</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </form>
 </section>
 
 <script src="script/app.js"></script>
