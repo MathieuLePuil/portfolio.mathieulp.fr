@@ -40,24 +40,24 @@ require("header.inc.php")
 <section id="portfolio">
     <div class="scaryshopfr">
         <h2 class="pf-titre">scaryshop.fr</h2>
-        <img src="assets/scaryshop.fr.png" alt="scaryshop.fr" class="pf-img">
+        <a href="https://scaryshop.fr/"><img src="assets/scaryshop.fr.png" alt="scaryshop.fr" class="pf-img"></a>
         <p class="pf-texte">Le site du ScaryShop a été créé avant tout pour m’entrainer, mais aussi pour promouvoir mon serveur Discord. Il s’agit d’un serveur où nous vendons les objets d’un jeu contre de la monnaie virtuelle.</p>
     </div>
     <div class="mathieulpfr">
         <h2 class="pf-titre">mathieulp.fr</h2>
-        <img src="assets/mathieulp.fr.png" alt="mathieulp.fr" class="pf-img">
+        <a href="https://mathieulp.fr/"><img src="assets/mathieulp.fr.png" alt="mathieulp.fr" class="pf-img"></a>
         <p class="pf-texte">Ce site est tout simplement mon univers de travail MMI. On y retrouve mes différents travaux des semestres, mes réalisations ainsi qu’un portfolio spécialement conçu pour le cursus.</p>
     </div>
 </section>
 <section id="portfolio2">
     <div class="mmiple">
         <h2 class="pf-titre">MMiple</h2>
-        <img src="assets/mmiple.png" alt="mmiple" class="pf-img">
+        <a href="https://portfolio.mathieulp.fr/#portfolio"><img src="assets/mmiple.png" alt="mmiple" class="pf-img">
         <p class="pf-texte">MMiple est un site de jeu développé lors de mon cursus MMI. L’objectif était de découvrir les sessions PHP et les bases de données. Nous avons donc créé une boutique complète.</p>
     </div>
     <div class="portfoliofr">
         <h2 class="pf-titre">portfolio.mathieulp.fr</h2>
-        <img src="assets/portfolio.mathieulp.fr.png" alt="portfolio.mathieulp.fr" class="pf-img">
+        <a href="https://portfolio.mathieulp.fr/"><img src="assets/portfolio.mathieulp.fr.png" alt="portfolio.mathieulp.fr" class="pf-img"></a>
         <p class="pf-texte">Vous avez sûrement déjà vu ce site quelque part. Probablement parce que vous êtes dessus. Il s’agit de mon portfolio et site professionnel. Toutes mes activités sont dessus.</p>
     </div>
 </section>
