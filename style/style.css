@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @font-face {
     font-family: 'Gordita Ultra';
     font-style: normal;
@@ -319,7 +320,8 @@ nav {
 .about-right p {
     text-align: justify;
     margin-right: 200px;
-    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 .media-link {
@@ -376,7 +378,7 @@ nav {
         margin-right: 5%;
         margin-left: 5%;
         justify-content: center;
-        font-size: 18px;
+        font-size: 17px;
     }
     .media-link {
         width: 100%;
@@ -426,7 +428,7 @@ nav {
     }
     .about-right p {
         margin-top: 0;
-        font-size: 16px;
+        font-size: 14px;
     }
     #pdp {
         width: 100px;
@@ -455,6 +457,7 @@ nav {
 }
 
 .pf-titre {
+    font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
@@ -466,6 +469,7 @@ nav {
 }
 
 .pf-texte {
+    font-family: 'Montserrat', sans-serif;
     color: white;
     margin-top: 10px;
     text-align: justify;
@@ -556,10 +560,11 @@ nav {
         width: 300px;
     }
     #portfolio2 {
-        height: 120vh;
+        height: 130vh;
+        padding-top: 100px;
     }
     #portfolio {
-        height: 120vh;
+        height: 130vh;
     }
 }
 
@@ -569,7 +574,7 @@ nav {
     }
     #portfolio2 {
         height: 120vh;
-        margin-top: -150px;
+        margin-top: -170px;
     }
     .pf-img {
         width: 200px;
@@ -581,6 +586,10 @@ nav {
 }
 
 /* Section CONTACT */
+
+form {
+    font-family: 'Montserrat', sans-serif;
+}
 
 #contact {
     height: 100vh;
@@ -732,6 +741,10 @@ footer {
     color: white;
 }
 
+footer h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 footer img {
     width: 20px;
 }
@@ -769,6 +782,7 @@ footer a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .ft-link img {

@@ -21,7 +21,7 @@
     </div>
     <div class="coordonnees">
         <div>
-            <h2>COORDONNEES</h2>
+            <h2>COORDONNÉES</h2>
         </div>
         <div class="ft-link">
             <a href=""><img src="assets/email.png"> contact@mathieulp.fr</a>
