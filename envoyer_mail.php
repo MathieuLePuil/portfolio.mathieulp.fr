@@ -17,6 +17,12 @@
         exit(0);
     }
 
+    if (isset($_POST['prenom'], $_POST['nom'],$_POST['email'], $_POST['message'])) {
+        if (isset($_POST['title']) && !empty($_POST['title'])) {
+            die();
+        }
+    }
+
     if (!empty($_POST['email'])) {
         if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
             $email=$_POST['email'];

@@ -809,3 +809,8 @@ footer a {
         font-size: 13px;
     }
 }
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}

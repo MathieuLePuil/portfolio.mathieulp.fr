@@ -52,7 +52,7 @@ require("header.inc.php")
 <section id="portfolio2">
     <div class="mmiple">
         <h2 class="pf-titre">MMiple</h2>
-        <a href="https://portfolio.mathieulp.fr/#portfolio"><img src="assets/mmiple.png" alt="mmiple" class="pf-img">
+        <a href="https://portfolio.mathieulp.fr/#portfolio"><img src="assets/mmiple.png" alt="mmiple" class="pf-img"></a>
         <p class="pf-texte">MMiple est un site de jeu développé lors de mon cursus MMI. L’objectif était de découvrir les sessions PHP et les bases de données. Nous avons donc créé une boutique complète.</p>
     </div>
     <div class="portfoliofr">
@@ -71,6 +71,7 @@ require("header.inc.php")
                     <div class="col">
                         <div class="inputBox">
                             <input type="text" name="prenom" id="prenom" required="required">
+                            <input type="text" name="title" id="title" class="hidden" required="required">
                             <span class="text">Prénom</span>
                             <span class="line"></span>
                         </div>
