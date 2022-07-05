@@ -40,12 +40,12 @@ require("header.inc.php")
 <section id="portfolio">
     <div class="scaryshopfr">
         <h2 class="pf-titre">scaryshop.fr</h2>
-        <a href="https://scaryshop.fr/"><img src="assets/scaryshop.fr.png" alt="scaryshop.fr" class="pf-img"></a>
+        <a href="https://scaryshop.fr/" target="_blank"><img src="assets/scaryshop.fr.png" alt="scaryshop.fr" class="pf-img"></a>
         <p class="pf-texte">Le site du ScaryShop a été créé avant tout pour m’entrainer, mais aussi pour promouvoir mon serveur Discord. Il s’agit d’un serveur où nous vendons les objets d’un jeu contre de la monnaie virtuelle.</p>
     </div>
     <div class="mathieulpfr">
         <h2 class="pf-titre">mathieulp.fr</h2>
-        <a href="https://mathieulp.fr/"><img src="assets/mathieulp.fr.png" alt="mathieulp.fr" class="pf-img"></a>
+        <a href="https://mathieulp.fr/" target="_blank"><img src="assets/mathieulp.fr.png" alt="mathieulp.fr" class="pf-img"></a>
         <p class="pf-texte">Ce site est tout simplement mon univers de travail MMI. On y retrouve mes différents travaux des semestres, mes réalisations ainsi qu’un portfolio spécialement conçu pour le cursus.</p>
     </div>
 </section>
@@ -57,7 +57,7 @@ require("header.inc.php")
     </div>
     <div class="portfoliofr">
         <h2 class="pf-titre">portfolio.mathieulp.fr</h2>
-        <a href="https://portfolio.mathieulp.fr/"><img src="assets/portfolio.mathieulp.fr.png" alt="portfolio.mathieulp.fr" class="pf-img"></a>
+        <a href="https://portfolio.mathieulp.fr/" target="_blank"><img src="assets/portfolio.mathieulp.fr.png" alt="portfolio.mathieulp.fr" class="pf-img"></a>
         <p class="pf-texte">Vous avez sûrement déjà vu ce site quelque part. Probablement parce que vous êtes dessus. Il s’agit de mon portfolio et site professionnel. Toutes mes activités sont dessus.</p>
     </div>
 </section>
