@@ -765,3 +765,24 @@ footer a {
 .ft-link img {
     margin-top: 3px;
 }
+
+@media screen and (max-width: 670px) {
+    footer h2 {
+        font-size: 20px;
+    }
+    footer a {
+        font-size: 16px;
+    }
+    .navigation {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    footer h2 {
+        font-size: 17px;
+    }
+    footer a {
+        font-size: 13px;
+    }
+}
