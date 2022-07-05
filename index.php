@@ -71,7 +71,7 @@ require("header.inc.php")
                     <div class="col">
                         <div class="inputBox">
                             <input type="text" name="prenom" id="prenom" required="required">
-                            <input type="text" name="title" id="title" class="hidden">
+                            <input type="text" name="title" class="hidden" value="title">
                             <span class="text">Prénom</span>
                             <span class="line"></span>
                         </div>
