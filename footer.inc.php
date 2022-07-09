@@ -4,8 +4,8 @@
             <h2>ME SUIVRE</h2>
         </div>
         <div class="ft-link">
-            <a href=""><img src="assets/GITHUB-small.png"> GitHub</a>
-            <a href=""><img src="assets/LINKEDIN-small.png"> Linkedin</a>
+            <a href="https://github.com/MathieuLePuil"><img src="assets/GITHUB-small.png"> GitHub</a>
+            <a href="https://www.linkedin.com/in/mathieulepuil/"><img src="assets/LINKEDIN-small.png"> Linkedin</a>
         </div>
     </div>
     <div class="navigation">
