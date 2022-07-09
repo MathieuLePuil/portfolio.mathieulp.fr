@@ -17,10 +17,8 @@
         exit(0);
     }
 
-    if (isset($_POST['prenom'], $_POST['nom'],$_POST['email'], $_POST['message'])) {
-        if (isset($_POST['title']) && !empty($_POST['title'])) {
-            die();
-        }
+    if (empty($_POST['title'])) {
+        die();
     }
 
     if (!empty($_POST['email'])) {
@@ -38,7 +36,7 @@
     if (empty($_POST['message'])) {
         echo '<script> alert(\'Veuillez écrire un message !\'); location.assign("https://portfolio.mathieulp.fr/#contact");</script>';
     } else {
-        $message = 'Le pseudo est : '.$prenom."\n".'Le # est : '.$nom."\n".'L\'email est : '.$email."\n".$_POST['message'];
+        $message = 'Le pseudo est : '.$prenom."\n\r".'Le nom est : '.$nom."\n\r".'L\'email est : '.$email."\r\r\n\n".$_POST['message'];
         $destinataire = 'lepuilmathieu@gmail.com';
         $sujet = 'Depuis le site du portfolio | '.date('d/m/Y');
         $headers = 'From : '.$email." \r\n";

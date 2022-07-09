@@ -67,11 +67,11 @@ require("header.inc.php")
         <div class="contactform">
             <div class="container">
                 <h2>Me contacter</h2>
+                <input type="text" name="title" class="hidden" value="title">
                 <div class="row100">
                     <div class="col">
                         <div class="inputBox">
                             <input type="text" name="prenom" id="prenom" required="required">
-                            <input type="text" name="title" class="hidden" value="title">
                             <span class="text">Prénom</span>
                             <span class="line"></span>
                         </div>
