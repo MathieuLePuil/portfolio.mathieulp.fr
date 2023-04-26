@@ -6,7 +6,7 @@ require("header.inc.php")
 ?>
 
 <section id="home">
-    <div class="home">
+    <div class="home reveal-0">
         <div class="name">
             <h1 class="no-background-txt">MATHIEU</h1>
             <h1 class="background-txt">LE PUIL</h1>
@@ -20,10 +20,10 @@ require("header.inc.php")
 </section>
 
 <section id="about">
-    <div class="about-left">
+    <div class="about-left reveal-1">
         <img src="assets/pdp.png" alt="photo" id="pdp">
     </div>
-    <div class="about-right">
+    <div class="about-right reveal-2">
         <div class="txt-presentation">
             <p>Je suis <b>Mathieu Le Puil</b>, j’ai 19 ans et je suis en <b>B.U.T Métiers du Multimédia et de l’internet</b>. J’ai commencé à apprendre le développement lors du premier confinement de 2020. <br> <br>  J’ai tout d’abord commencé à apprendre le <b>Python</b> afin de développer des Bots Discord. J’ai ensuite appris à utiliser des <b>bases de données</b> ou encore le <b>JSON</b>. <br> <br>  C’est en arrivant en M.M.I que j’ai appris le développement Web avec les outils <b>HTML/CSS</b>, <b>PHP</b> et <b>JavaScript</b>. J’ai par la suite créé plusieurs sites, que ce soit dans le cursus ou dans mon temps personnel. Vous pouvez les retrouver ci-dessous.</p>
         </div>
@@ -38,24 +38,24 @@ require("header.inc.php")
 </section>
 
 <section id="portfolio">
-    <div class="scaryshopfr">
+    <div class="scaryshopfr reveal-1">
         <h2 class="pf-titre">scaryshop.fr</h2>
         <a href="https://scaryshop.fr/" target="_blank"><img src="assets/scaryshop.fr.png" alt="scaryshop.fr" class="pf-img"></a>
         <p class="pf-texte">Le site du ScaryShop a été créé avant tout pour m’entrainer, mais aussi pour promouvoir mon serveur Discord. Il s’agit d’un serveur où nous vendons les objets d’un jeu contre de la monnaie virtuelle.</p>
     </div>
-    <div class="mathieulpfr">
+    <div class="mathieulpfr reveal-2">
         <h2 class="pf-titre">mathieulp.fr</h2>
         <a href="https://mathieulp.fr/" target="_blank"><img src="assets/mathieulp.fr.png" alt="mathieulp.fr" class="pf-img"></a>
         <p class="pf-texte">Ce site est tout simplement mon univers de travail MMI. On y retrouve mes différents travaux des semestres, mes réalisations ainsi qu’un portfolio spécialement conçu pour le cursus.</p>
     </div>
 </section>
 <section id="portfolio2">
-    <div class="mmiple">
+    <div class="mmiple reveal-1">
         <h2 class="pf-titre">MMiple</h2>
         <a href="https://portfolio.mathieulp.fr/#portfolio"><img src="assets/mmiple.png" alt="mmiple" class="pf-img"></a>
         <p class="pf-texte">MMiple est un site de jeu développé lors de mon cursus MMI. L’objectif était de découvrir les sessions PHP et les bases de données. Nous avons donc créé une boutique complète.</p>
     </div>
-    <div class="portfoliofr">
+    <div class="portfoliofr reveal-2">
         <h2 class="pf-titre">portfolio.mathieulp.fr</h2>
         <a href="https://portfolio.mathieulp.fr/" target="_blank"><img src="assets/portfolio.mathieulp.fr.png" alt="portfolio.mathieulp.fr" class="pf-img"></a>
         <p class="pf-texte">Vous avez sûrement déjà vu ce site quelque part. Probablement parce que vous êtes dessus. Il s’agit de mon portfolio et site professionnel. Toutes mes activités sont dessus.</p>
